@@ -12,11 +12,14 @@
     "styled-components": "^4.3.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "set PORT=3006 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "http://Pranav50.github.io/BeachResort",
   "eslintConfig": {
     "extends": "react-app"
   },
